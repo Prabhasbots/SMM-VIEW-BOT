@@ -13,8 +13,8 @@ welcome_bonus = 100
 ref_bonus = 500
 min_view = 100
 max_view = 30000
-required_channels = ['@pythonViewbooster']  # more channel same as
-payment_channel = "@pythonViewbooster"
+required_channels = ['@AT_SERIAL']  # more channel same as
+payment_channel = "@AT_SERIAL"
 
 
 # Function to check if the user is a member of all required channels
@@ -194,14 +194,14 @@ Other methods: 0%
 """
 
     markup = InlineKeyboardMarkup()
-    button1 = InlineKeyboardButton("💲 PayPal", url="https://t.me/KsCoder")
+    button1 = InlineKeyboardButton("💲 PayPal", url="https://t.me/AJ_TVSERIAL_BOT")
     button2 = InlineKeyboardButton("💳 Perfect Money",
-                                   url="https://t.me/KsCoder")
-    button6 = InlineKeyboardButton("💳 Webmoney", url="https://t.me/KsCoder")
+                                   url="https://t.me/AJ_TVSERIAL_BOT")
+    button6 = InlineKeyboardButton("💳 Webmoney", url="https://t.me/AJ_TVSERIAL_BOT")
     button3 = InlineKeyboardButton("💎 Bitcoin, Litecoin, USDT...",
-                                   url="https://t.me/KsCoder")
-    button4 = InlineKeyboardButton("💸 Paytm", url="https://t.me/KsCoder")
-    button5 = InlineKeyboardButton("💰 Paytm", url="https://t.me/KsCoder")
+                                   url="https://t.me/AJ_TVSERIAL_BOT")
+    button4 = InlineKeyboardButton("💸 Paytm", url="https://t.me/AJ_TVSERIAL_BOT")
+    button5 = InlineKeyboardButton("💰 Paytm", url="https://t.me/AJ_TVSERIAL_BOT")
 
     markup.add(button1)
     markup.add(button2, button6)
